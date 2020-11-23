@@ -14,7 +14,7 @@ public class TCPClientFile {
     public static void main(String[] args) throws IOException {
         // 1.创建流对象
         // 1.1 创建输入流,读取本地文件
-        FileInputStream fileInputStream = new FileInputStream("test.jpg");
+        FileInputStream fileInputStream = new FileInputStream("D:\\Users\\蜘蛛啊全是腿儿\\Pictures\\Camera Roll\\timg (2).jpg");
         BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
         // 1.2 创建输出流,写到服务端
         Socket socket = new Socket("127.0.0.1", 9998);
